@@ -1,0 +1,23 @@
+Marathon Version: 3.0
+
+About this repository
+---------------------
+
+This repository contains the scripting libraries used by Marathon.
+
+What is Marathon?
+-----------------
+
+Marathon is a tool for recording, replaying, refactoring test cases
+for Java GUI programs developed using Swing components. Marathon consists
+of an editor (that too a tabbed editor), a recorder and a player. Marathon
+records the test cases in an easy to read and maintain format using Jython,
+or JRuby that can be selected at the time of project creation.a Java port
+of Python. The test cases can be run either through the UI or in batch mode.
+
+More Information 
+----------------
+
+You can get more information about Marathon and documentation/support from:
+
+http://www.marathontesting.com/
