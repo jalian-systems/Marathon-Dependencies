@@ -1,1 +1,0 @@
-windows:IO#stat returns a File::Stat object for the stream

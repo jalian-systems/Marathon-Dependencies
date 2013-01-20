@@ -1,0 +1,123 @@
+/* THIS FILE IS GENERATED. DO NOT EDIT */
+package org.jruby.gen;
+import org.jruby.Ruby;
+import org.jruby.RubyModule;
+import org.jruby.RubyClass;
+import org.jruby.CompatVersion;
+import org.jruby.anno.TypePopulator;
+import org.jruby.internal.runtime.methods.CallConfiguration;
+import org.jruby.internal.runtime.methods.JavaMethod;
+import org.jruby.internal.runtime.methods.DynamicMethod;
+import org.jruby.runtime.Arity;
+import org.jruby.runtime.Visibility;
+import org.jruby.compiler.ASTInspector;
+import java.util.Arrays;
+import java.util.List;
+public class org$jruby$RubyRange$POPULATOR extends TypePopulator {
+    public void populate(RubyModule cls, Class clazz) {
+        JavaMethod javaMethod;
+        DynamicMethod moduleMethod;
+        CompatVersion compatVersion = cls.getRuntime().getInstanceConfig().getCompatVersion();
+        Ruby runtime = cls.getRuntime();
+        javaMethod = new org.jruby.RubyRange$INVOKER$i$0$1$initialize(cls, Visibility.PRIVATE);
+        populateMethod(javaMethod, -1, "initialize", false, CallConfiguration.FrameNoneScopeNone, false, org.jruby.RubyRange.class, "initialize", org.jruby.runtime.builtin.IRubyObject.class, new Class[] {org.jruby.runtime.ThreadContext.class, org.jruby.runtime.builtin.IRubyObject[].class, org.jruby.runtime.Block.class});
+        cls.addMethodAtBootTimeOnly("initialize", javaMethod);
+        javaMethod = new org.jruby.RubyRange$INVOKER$i$0$0$exclude_end_p(cls, Visibility.PUBLIC);
+        populateMethod(javaMethod, 0, "exclude_end_p", false, CallConfiguration.FrameNoneScopeNone, false, org.jruby.RubyRange.class, "exclude_end_p", org.jruby.RubyBoolean.class, new Class[] {});
+        cls.addMethodAtBootTimeOnly("exclude_end?", javaMethod);
+        javaMethod = new org.jruby.RubyRange$INVOKER$i$0$0$last(cls, Visibility.PUBLIC);
+        populateMethod(javaMethod, 0, "last", false, CallConfiguration.FrameNoneScopeNone, false, org.jruby.RubyRange.class, "last", org.jruby.runtime.builtin.IRubyObject.class, new Class[] {});
+        cls.addMethodAtBootTimeOnly("last", javaMethod);
+        cls.addMethodAtBootTimeOnly("end", javaMethod);
+        javaMethod = new org.jruby.RubyRange$INVOKER$i$1$0$op_equal(cls, Visibility.PUBLIC);
+        populateMethod(javaMethod, 1, "op_equal", false, CallConfiguration.FrameNoneScopeNone, false, org.jruby.RubyRange.class, "op_equal", org.jruby.runtime.builtin.IRubyObject.class, new Class[] {org.jruby.runtime.ThreadContext.class, org.jruby.runtime.builtin.IRubyObject.class});
+        cls.addMethodAtBootTimeOnly("==", javaMethod);
+        javaMethod = new org.jruby.RubyRange$INVOKER$i$0$0$hash(cls, Visibility.PUBLIC);
+        populateMethod(javaMethod, 0, "hash", false, CallConfiguration.FrameNoneScopeNone, false, org.jruby.RubyRange.class, "hash", org.jruby.RubyFixnum.class, new Class[] {org.jruby.runtime.ThreadContext.class});
+        cls.addMethodAtBootTimeOnly("hash", javaMethod);
+        javaMethod = new org.jruby.RubyRange$INVOKER$i$0$0$to_a(cls, Visibility.PUBLIC);
+        populateMethod(javaMethod, 0, "to_a", false, CallConfiguration.FrameNoneScopeNone, false, org.jruby.RubyRange.class, "to_a", org.jruby.runtime.builtin.IRubyObject.class, new Class[] {org.jruby.runtime.ThreadContext.class, org.jruby.runtime.Block.class});
+        cls.addMethodAtBootTimeOnly("to_a", javaMethod);
+        javaMethod = new org.jruby.RubyRange$INVOKER$i$1$0$eql_p(cls, Visibility.PUBLIC);
+        populateMethod(javaMethod, 1, "eql_p", false, CallConfiguration.FrameNoneScopeNone, false, org.jruby.RubyRange.class, "eql_p", org.jruby.runtime.builtin.IRubyObject.class, new Class[] {org.jruby.runtime.ThreadContext.class, org.jruby.runtime.builtin.IRubyObject.class});
+        cls.addMethodAtBootTimeOnly("eql?", javaMethod);
+        javaMethod = new org.jruby.RubyRange$INVOKER$i$0$0$first(cls, Visibility.PUBLIC);
+        populateMethod(javaMethod, 0, "first", false, CallConfiguration.FrameNoneScopeNone, false, org.jruby.RubyRange.class, "first", org.jruby.runtime.builtin.IRubyObject.class, new Class[] {});
+        cls.addMethodAtBootTimeOnly("first", javaMethod);
+        cls.addMethodAtBootTimeOnly("begin", javaMethod);
+        javaMethod = new org.jruby.RubyRange$INVOKER$i$0$0$inspect(cls, Visibility.PUBLIC);
+        populateMethod(javaMethod, 0, "inspect", false, CallConfiguration.FrameNoneScopeNone, false, org.jruby.RubyRange.class, "inspect", org.jruby.runtime.builtin.IRubyObject.class, new Class[] {org.jruby.runtime.ThreadContext.class});
+        cls.addMethodAtBootTimeOnly("inspect", javaMethod);
+        javaMethod = new org.jruby.RubyRange$INVOKER$i$0$0$to_s(cls, Visibility.PUBLIC);
+        populateMethod(javaMethod, 0, "to_s", false, CallConfiguration.FrameNoneScopeNone, false, org.jruby.RubyRange.class, "to_s", org.jruby.runtime.builtin.IRubyObject.class, new Class[] {org.jruby.runtime.ThreadContext.class});
+        cls.addMethodAtBootTimeOnly("to_s", javaMethod);
+        runtime.addBoundMethod("org.jruby.RubyRange","initialize","initialize");
+        runtime.addBoundMethod("org.jruby.RubyRange","exclude_end_p","exclude_end?");
+        runtime.addBoundMethod("org.jruby.RubyRange","last","last");
+        runtime.addBoundMethod("org.jruby.RubyRange","op_equal","==");
+        runtime.addBoundMethod("org.jruby.RubyRange","hash","hash");
+        runtime.addBoundMethod("org.jruby.RubyRange","to_a","to_a");
+        runtime.addBoundMethod("org.jruby.RubyRange","eql_p","eql?");
+        runtime.addBoundMethod("org.jruby.RubyRange","first","first");
+        runtime.addBoundMethod("org.jruby.RubyRange","inspect","inspect");
+        runtime.addBoundMethod("org.jruby.RubyRange","to_s","to_s");
+        if (compatVersion == CompatVersion.RUBY1_8 || compatVersion == CompatVersion.BOTH) {
+        javaMethod = new org.jruby.RubyRange$INVOKER$i$0$0$each(cls, Visibility.PUBLIC);
+        populateMethod(javaMethod, 0, "each", false, CallConfiguration.FrameNoneScopeNone, false, org.jruby.RubyRange.class, "each", org.jruby.runtime.builtin.IRubyObject.class, new Class[] {org.jruby.runtime.ThreadContext.class, org.jruby.runtime.Block.class});
+        cls.addMethodAtBootTimeOnly("each", javaMethod);
+        javaMethod = new org.jruby.RubyRange$INVOKER$i$1$0$include_p(cls, Visibility.PUBLIC);
+        populateMethod(javaMethod, 1, "include_p", false, CallConfiguration.FrameNoneScopeNone, false, org.jruby.RubyRange.class, "include_p", org.jruby.RubyBoolean.class, new Class[] {org.jruby.runtime.ThreadContext.class, org.jruby.runtime.builtin.IRubyObject.class});
+        cls.addMethodAtBootTimeOnly("include?", javaMethod);
+        cls.addMethodAtBootTimeOnly("member?", javaMethod);
+        cls.addMethodAtBootTimeOnly("===", javaMethod);
+        javaMethod = new org.jruby.RubyRange$INVOKER$i$step(cls, Visibility.PUBLIC);
+        populateMethod(javaMethod, -1, "step", false, CallConfiguration.FrameNoneScopeNone, false, org.jruby.RubyRange.class, "step", org.jruby.runtime.builtin.IRubyObject.class, new Class[] {org.jruby.runtime.ThreadContext.class, org.jruby.runtime.builtin.IRubyObject.class, org.jruby.runtime.Block.class});
+        cls.addMethodAtBootTimeOnly("step", javaMethod);
+        runtime.addBoundMethod("org.jruby.RubyRange","each","each");
+        runtime.addBoundMethod("org.jruby.RubyRange","include_p","include?");
+        runtime.addBoundMethod("org.jruby.RubyRange","step","step");
+        }
+        if (compatVersion.is1_9() || compatVersion == CompatVersion.BOTH) {
+        javaMethod = new org.jruby.RubyRange$INVOKER$i$1$0$eqq_p19(cls, Visibility.PUBLIC);
+        populateMethod(javaMethod, 1, "eqq_p19", false, CallConfiguration.FrameNoneScopeNone, false, org.jruby.RubyRange.class, "eqq_p19", org.jruby.runtime.builtin.IRubyObject.class, new Class[] {org.jruby.runtime.ThreadContext.class, org.jruby.runtime.builtin.IRubyObject.class});
+        cls.addMethodAtBootTimeOnly("===", javaMethod);
+        javaMethod = new org.jruby.RubyRange$INVOKER$i$last(cls, Visibility.PUBLIC);
+        populateMethod(javaMethod, -1, "last", false, CallConfiguration.FrameNoneScopeNone, false, org.jruby.RubyRange.class, "last", org.jruby.runtime.builtin.IRubyObject.class, new Class[] {org.jruby.runtime.ThreadContext.class});
+        cls.addMethodAtBootTimeOnly("last", javaMethod);
+        javaMethod = new org.jruby.RubyRange$INVOKER$i$0$0$max(cls, Visibility.PUBLIC);
+        populateMethod(javaMethod, 0, "max", false, CallConfiguration.FrameFullScopeNone, false, org.jruby.RubyRange.class, "max", org.jruby.runtime.builtin.IRubyObject.class, new Class[] {org.jruby.runtime.ThreadContext.class, org.jruby.runtime.Block.class});
+        cls.addMethodAtBootTimeOnly("max", javaMethod);
+        javaMethod = new org.jruby.RubyRange$INVOKER$i$1$0$include_p19(cls, Visibility.PUBLIC);
+        populateMethod(javaMethod, 1, "include_p19", false, CallConfiguration.FrameFullScopeNone, false, org.jruby.RubyRange.class, "include_p19", org.jruby.runtime.builtin.IRubyObject.class, new Class[] {org.jruby.runtime.ThreadContext.class, org.jruby.runtime.builtin.IRubyObject.class});
+        cls.addMethodAtBootTimeOnly("include?", javaMethod);
+        cls.addMethodAtBootTimeOnly("member?", javaMethod);
+        javaMethod = new org.jruby.RubyRange$INVOKER$i$0$0$each19(cls, Visibility.PUBLIC);
+        populateMethod(javaMethod, 0, "each19", false, CallConfiguration.FrameNoneScopeNone, false, org.jruby.RubyRange.class, "each19", org.jruby.runtime.builtin.IRubyObject.class, new Class[] {org.jruby.runtime.ThreadContext.class, org.jruby.runtime.Block.class});
+        cls.addMethodAtBootTimeOnly("each", javaMethod);
+        javaMethod = new org.jruby.RubyRange$INVOKER$i$first(cls, Visibility.PUBLIC);
+        populateMethod(javaMethod, -1, "first", false, CallConfiguration.FrameNoneScopeNone, false, org.jruby.RubyRange.class, "first", org.jruby.runtime.builtin.IRubyObject.class, new Class[] {org.jruby.runtime.ThreadContext.class});
+        cls.addMethodAtBootTimeOnly("first", javaMethod);
+        javaMethod = new org.jruby.RubyRange$INVOKER$i$step19(cls, Visibility.PUBLIC);
+        populateMethod(javaMethod, -1, "step19", false, CallConfiguration.FrameNoneScopeNone, false, org.jruby.RubyRange.class, "step19", org.jruby.runtime.builtin.IRubyObject.class, new Class[] {org.jruby.runtime.ThreadContext.class, org.jruby.runtime.Block.class});
+        cls.addMethodAtBootTimeOnly("step", javaMethod);
+        javaMethod = new org.jruby.RubyRange$INVOKER$i$0$0$min(cls, Visibility.PUBLIC);
+        populateMethod(javaMethod, 0, "min", false, CallConfiguration.FrameFullScopeNone, false, org.jruby.RubyRange.class, "min", org.jruby.runtime.builtin.IRubyObject.class, new Class[] {org.jruby.runtime.ThreadContext.class, org.jruby.runtime.Block.class});
+        cls.addMethodAtBootTimeOnly("min", javaMethod);
+        javaMethod = new org.jruby.RubyRange$INVOKER$i$1$0$cover_p(cls, Visibility.PUBLIC);
+        populateMethod(javaMethod, 1, "cover_p", false, CallConfiguration.FrameNoneScopeNone, false, org.jruby.RubyRange.class, "cover_p", org.jruby.runtime.builtin.IRubyObject.class, new Class[] {org.jruby.runtime.ThreadContext.class, org.jruby.runtime.builtin.IRubyObject.class});
+        cls.addMethodAtBootTimeOnly("cover?", javaMethod);
+        runtime.addBoundMethod("org.jruby.RubyRange","eqq_p19","===");
+        runtime.addBoundMethod("org.jruby.RubyRange","last","last");
+        runtime.addBoundMethod("org.jruby.RubyRange","max","max");
+        runtime.addBoundMethod("org.jruby.RubyRange","include_p19","include?");
+        runtime.addBoundMethod("org.jruby.RubyRange","each19","each");
+        runtime.addBoundMethod("org.jruby.RubyRange","first","first");
+        runtime.addBoundMethod("org.jruby.RubyRange","step19","step");
+        runtime.addBoundMethod("org.jruby.RubyRange","min","min");
+        runtime.addBoundMethod("org.jruby.RubyRange","cover_p","cover?");
+        }
+    }
+    static {
+        ASTInspector.addFrameAwareMethods("include?","member?");
+     }
+}

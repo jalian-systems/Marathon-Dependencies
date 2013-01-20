@@ -1,0 +1,82 @@
+/* THIS FILE IS GENERATED. DO NOT EDIT */
+package org.jruby.gen;
+import org.jruby.Ruby;
+import org.jruby.RubyModule;
+import org.jruby.RubyClass;
+import org.jruby.CompatVersion;
+import org.jruby.anno.TypePopulator;
+import org.jruby.internal.runtime.methods.CallConfiguration;
+import org.jruby.internal.runtime.methods.JavaMethod;
+import org.jruby.internal.runtime.methods.DynamicMethod;
+import org.jruby.runtime.Arity;
+import org.jruby.runtime.Visibility;
+import org.jruby.compiler.ASTInspector;
+import java.util.Arrays;
+import java.util.List;
+public class org$jruby$ext$digest$RubyDigest$DigestInstance$POPULATOR extends TypePopulator {
+    public void populate(RubyModule cls, Class clazz) {
+        JavaMethod javaMethod;
+        DynamicMethod moduleMethod;
+        Ruby runtime = cls.getRuntime();
+        javaMethod = new org.jruby.ext.digest.RubyDigest$DigestInstance$INVOKER$s$1$0$update(cls, Visibility.PUBLIC);
+        populateMethod(javaMethod, 1, "update", true, CallConfiguration.FrameNoneScopeNone, false, org.jruby.ext.digest.RubyDigest.DigestInstance.class, "update", org.jruby.runtime.builtin.IRubyObject.class, new Class[] {org.jruby.runtime.ThreadContext.class, org.jruby.runtime.builtin.IRubyObject.class, org.jruby.runtime.builtin.IRubyObject.class});
+        cls.addMethodAtBootTimeOnly("update", javaMethod);
+        cls.addMethodAtBootTimeOnly("<<", javaMethod);
+        javaMethod = new org.jruby.ext.digest.RubyDigest$DigestInstance$INVOKER$s$0$0$hexdigest_bang(cls, Visibility.PUBLIC);
+        populateMethod(javaMethod, 0, "hexdigest_bang", true, CallConfiguration.FrameNoneScopeNone, false, org.jruby.ext.digest.RubyDigest.DigestInstance.class, "hexdigest_bang", org.jruby.runtime.builtin.IRubyObject.class, new Class[] {org.jruby.runtime.ThreadContext.class, org.jruby.runtime.builtin.IRubyObject.class});
+        cls.addMethodAtBootTimeOnly("hexdigest!", javaMethod);
+        javaMethod = new org.jruby.ext.digest.RubyDigest$DigestInstance$INVOKER$s$0$0$finish(cls, Visibility.PUBLIC);
+        populateMethod(javaMethod, 0, "finish", true, CallConfiguration.FrameNoneScopeNone, false, org.jruby.ext.digest.RubyDigest.DigestInstance.class, "finish", org.jruby.runtime.builtin.IRubyObject.class, new Class[] {org.jruby.runtime.ThreadContext.class, org.jruby.runtime.builtin.IRubyObject.class});
+        cls.addMethodAtBootTimeOnly("finish", javaMethod);
+        javaMethod = new org.jruby.ext.digest.RubyDigest$DigestInstance$INVOKER$s$0$1$digest(cls, Visibility.PUBLIC);
+        populateMethod(javaMethod, -1, "digest", true, CallConfiguration.FrameNoneScopeNone, false, org.jruby.ext.digest.RubyDigest.DigestInstance.class, "digest", org.jruby.runtime.builtin.IRubyObject.class, new Class[] {org.jruby.runtime.ThreadContext.class, org.jruby.runtime.builtin.IRubyObject.class, org.jruby.runtime.builtin.IRubyObject[].class});
+        cls.addMethodAtBootTimeOnly("digest", javaMethod);
+        javaMethod = new org.jruby.ext.digest.RubyDigest$DigestInstance$INVOKER$s$0$1$hexdigest(cls, Visibility.PUBLIC);
+        populateMethod(javaMethod, -1, "hexdigest", true, CallConfiguration.FrameNoneScopeNone, false, org.jruby.ext.digest.RubyDigest.DigestInstance.class, "hexdigest", org.jruby.runtime.builtin.IRubyObject.class, new Class[] {org.jruby.runtime.ThreadContext.class, org.jruby.runtime.builtin.IRubyObject.class, org.jruby.runtime.builtin.IRubyObject[].class});
+        cls.addMethodAtBootTimeOnly("hexdigest", javaMethod);
+        javaMethod = new org.jruby.ext.digest.RubyDigest$DigestInstance$INVOKER$s$0$0$reset(cls, Visibility.PUBLIC);
+        populateMethod(javaMethod, 0, "reset", true, CallConfiguration.FrameNoneScopeNone, false, org.jruby.ext.digest.RubyDigest.DigestInstance.class, "reset", org.jruby.runtime.builtin.IRubyObject.class, new Class[] {org.jruby.runtime.ThreadContext.class, org.jruby.runtime.builtin.IRubyObject.class});
+        cls.addMethodAtBootTimeOnly("reset", javaMethod);
+        javaMethod = new org.jruby.ext.digest.RubyDigest$DigestInstance$INVOKER$s$0$0$inspect(cls, Visibility.PUBLIC);
+        populateMethod(javaMethod, 0, "inspect", true, CallConfiguration.FrameNoneScopeNone, false, org.jruby.ext.digest.RubyDigest.DigestInstance.class, "inspect", org.jruby.runtime.builtin.IRubyObject.class, new Class[] {org.jruby.runtime.ThreadContext.class, org.jruby.runtime.builtin.IRubyObject.class});
+        cls.addMethodAtBootTimeOnly("inspect", javaMethod);
+        javaMethod = new org.jruby.ext.digest.RubyDigest$DigestInstance$INVOKER$s$0$0$block_length(cls, Visibility.PUBLIC);
+        populateMethod(javaMethod, 0, "block_length", true, CallConfiguration.FrameNoneScopeNone, false, org.jruby.ext.digest.RubyDigest.DigestInstance.class, "block_length", org.jruby.runtime.builtin.IRubyObject.class, new Class[] {org.jruby.runtime.ThreadContext.class, org.jruby.runtime.builtin.IRubyObject.class});
+        cls.addMethodAtBootTimeOnly("block_length", javaMethod);
+        javaMethod = new org.jruby.ext.digest.RubyDigest$DigestInstance$INVOKER$s$0$0$newObject(cls, Visibility.PUBLIC);
+        populateMethod(javaMethod, 0, "newObject", true, CallConfiguration.FrameNoneScopeNone, false, org.jruby.ext.digest.RubyDigest.DigestInstance.class, "newObject", org.jruby.runtime.builtin.IRubyObject.class, new Class[] {org.jruby.runtime.ThreadContext.class, org.jruby.runtime.builtin.IRubyObject.class});
+        cls.addMethodAtBootTimeOnly("new", javaMethod);
+        javaMethod = new org.jruby.ext.digest.RubyDigest$DigestInstance$INVOKER$s$0$0$to_s(cls, Visibility.PUBLIC);
+        populateMethod(javaMethod, 0, "to_s", true, CallConfiguration.FrameNoneScopeNone, false, org.jruby.ext.digest.RubyDigest.DigestInstance.class, "to_s", org.jruby.runtime.builtin.IRubyObject.class, new Class[] {org.jruby.runtime.ThreadContext.class, org.jruby.runtime.builtin.IRubyObject.class});
+        cls.addMethodAtBootTimeOnly("to_s", javaMethod);
+        javaMethod = new org.jruby.ext.digest.RubyDigest$DigestInstance$INVOKER$s$1$0$op_equal(cls, Visibility.PUBLIC);
+        populateMethod(javaMethod, 1, "op_equal", true, CallConfiguration.FrameNoneScopeNone, false, org.jruby.ext.digest.RubyDigest.DigestInstance.class, "op_equal", org.jruby.runtime.builtin.IRubyObject.class, new Class[] {org.jruby.runtime.ThreadContext.class, org.jruby.runtime.builtin.IRubyObject.class, org.jruby.runtime.builtin.IRubyObject.class});
+        cls.addMethodAtBootTimeOnly("==", javaMethod);
+        javaMethod = new org.jruby.ext.digest.RubyDigest$DigestInstance$INVOKER$s$0$0$length(cls, Visibility.PUBLIC);
+        populateMethod(javaMethod, 0, "length", true, CallConfiguration.FrameNoneScopeNone, false, org.jruby.ext.digest.RubyDigest.DigestInstance.class, "length", org.jruby.runtime.builtin.IRubyObject.class, new Class[] {org.jruby.runtime.ThreadContext.class, org.jruby.runtime.builtin.IRubyObject.class});
+        cls.addMethodAtBootTimeOnly("length", javaMethod);
+        cls.addMethodAtBootTimeOnly("size", javaMethod);
+        javaMethod = new org.jruby.ext.digest.RubyDigest$DigestInstance$INVOKER$s$0$0$digest_length(cls, Visibility.PUBLIC);
+        populateMethod(javaMethod, 0, "digest_length", true, CallConfiguration.FrameNoneScopeNone, false, org.jruby.ext.digest.RubyDigest.DigestInstance.class, "digest_length", org.jruby.runtime.builtin.IRubyObject.class, new Class[] {org.jruby.runtime.ThreadContext.class, org.jruby.runtime.builtin.IRubyObject.class});
+        cls.addMethodAtBootTimeOnly("digest_length", javaMethod);
+        javaMethod = new org.jruby.ext.digest.RubyDigest$DigestInstance$INVOKER$s$0$0$digest_bang(cls, Visibility.PUBLIC);
+        populateMethod(javaMethod, 0, "digest_bang", true, CallConfiguration.FrameNoneScopeNone, false, org.jruby.ext.digest.RubyDigest.DigestInstance.class, "digest_bang", org.jruby.runtime.builtin.IRubyObject.class, new Class[] {org.jruby.runtime.ThreadContext.class, org.jruby.runtime.builtin.IRubyObject.class});
+        cls.addMethodAtBootTimeOnly("digest!", javaMethod);
+        runtime.addBoundMethod("org.jruby.ext.digest.RubyDigest.DigestInstance","update","update");
+        runtime.addBoundMethod("org.jruby.ext.digest.RubyDigest.DigestInstance","hexdigest_bang","hexdigest!");
+        runtime.addBoundMethod("org.jruby.ext.digest.RubyDigest.DigestInstance","finish","finish");
+        runtime.addBoundMethod("org.jruby.ext.digest.RubyDigest.DigestInstance","digest","digest");
+        runtime.addBoundMethod("org.jruby.ext.digest.RubyDigest.DigestInstance","hexdigest","hexdigest");
+        runtime.addBoundMethod("org.jruby.ext.digest.RubyDigest.DigestInstance","reset","reset");
+        runtime.addBoundMethod("org.jruby.ext.digest.RubyDigest.DigestInstance","inspect","inspect");
+        runtime.addBoundMethod("org.jruby.ext.digest.RubyDigest.DigestInstance","block_length","block_length");
+        runtime.addBoundMethod("org.jruby.ext.digest.RubyDigest.DigestInstance","newObject","new");
+        runtime.addBoundMethod("org.jruby.ext.digest.RubyDigest.DigestInstance","to_s","to_s");
+        runtime.addBoundMethod("org.jruby.ext.digest.RubyDigest.DigestInstance","op_equal","==");
+        runtime.addBoundMethod("org.jruby.ext.digest.RubyDigest.DigestInstance","length","length");
+        runtime.addBoundMethod("org.jruby.ext.digest.RubyDigest.DigestInstance","digest_length","digest_length");
+        runtime.addBoundMethod("org.jruby.ext.digest.RubyDigest.DigestInstance","digest_bang","digest!");
+    }
+    static {
+     }
+}
